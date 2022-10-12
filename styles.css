@@ -1,0 +1,81 @@
+/* Hard Reset */
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Editando o Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  background: rgba(244, 221, 180, 0.5);
+  padding: 0 20px;
+}
+
+header ul {
+  display: flex;
+  list-style: none;
+}
+
+header ul li {
+  padding: 0 5px;
+}
+
+header img {
+  width: 120px;
+}
+
+/* Editando o Inicio */
+
+.inicio {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px 50px;
+}
+
+.inicio img {
+  width: 200px;
+  border-radius: 50%;
+
+  margin-top: 20px;
+}
+
+.inicio__nome, .inicio__faco {
+  display: flex;
+  align-items: center;
+
+  border: 1px solid rgba(17, 17, 17, 0.25);
+  border-radius: 10px;
+  padding: 10px;
+
+  -webkit-box-shadow: 1px 1px 8px -1px rgba(125,125,125,0.68); 
+  box-shadow: 1px 1px 8px -1px rgba(125,125,125,0.68);
+}
+
+.inicio__faco {
+  margin-top: 10px;
+}
+
+.inicio__nome h2 {
+  font-size: 35px;
+  margin-right: 10px;
+}
+
+.inicio__nome div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Editando o Footer */
+footer {
+  display: flex;
+  justify-content: center;
+  background: rgba(244, 221, 180, 0.5);
+  padding: 10px 20px;
+}
